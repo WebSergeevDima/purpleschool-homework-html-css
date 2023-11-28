@@ -36,9 +36,6 @@ nav {
 
 }
 .sectionText {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
     color: rgba(5, 0, 56, 0.6);
     margin: 0 0 40px 0;
 }
@@ -71,6 +68,12 @@ header a {
     font-weight: 400;
     padding: 0 20px;
     margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.form__button:hover {
+    border: 1px solid #5e78ff;
+    background: #5e78ff;
 }
 
 .form__desc {
@@ -90,4 +93,13 @@ footer {
 footer a {
     color: #fff;
     text-decoration: none;
+}
+
+.img-big {
+    width: 604px;
+}
+
+.img-big img {
+    width: 100%;
+    height: 100%;
 }
