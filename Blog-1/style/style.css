@@ -1,11 +1,26 @@
 body {
     font-family: Roboto, sans-serif;
     background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    padding: 0 15px;
 }
 
 .header {
-    margin: 0 auto 73px;
-    max-width: 708px;
+    margin: 72px auto 73px;
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 77px;
+}
+
+.header nav {
+    margin-right: auto;
+}
+
+.header ul {
+    display: flex;
+    gap: 52px;
+    align-items: center;
 }
 
 .header__logo {
@@ -49,6 +64,8 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    display: inline-flex;
+    gap: 12px;
 }
 
 .search {
@@ -62,7 +79,10 @@ body {
     font-weight: 400;
     line-height: normal;
     border: 0;
-    padding: 0 18px;
+    padding: 0 18px 0 46px;
+    background-image: url(../images/search.svg);
+    background-repeat: no-repeat;
+    background-position: 18px 13px;
 }
 
 .title {
@@ -72,6 +92,13 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 38px;
+}
+
+.author {
+    display: inline-flex;
+    margin: 20px 0 28px 0;
+    gap: 16px;
+    align-items: center;
 }
 
 .author-avatar {
@@ -90,7 +117,8 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px
+    margin: 12px 0;
+    text-align: left;
 }
 
 .author-job {
@@ -144,9 +172,26 @@ p.text-small {
     padding: 77px 0;
 }
 
-
 nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.search:focus::placeholder {
+    color: transparent;
+}
+
+@media (max-width: 800px) {
+    .header {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .header nav {
+        margin-right: 0;
+    }
+
+    .header ul {
+        flex-wrap: wrap;
+    }
 }
