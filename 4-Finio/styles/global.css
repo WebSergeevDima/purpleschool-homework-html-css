@@ -1,0 +1,21 @@
+:root {
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-primary: #357EFE;
+    --color-warning: #FFC736;
+    --color-success: #1ABC9C;
+    --color-text-light: rgba(78, 93, 124, 0.50);
+    --color-text-light-hover: rgba(255, 255, 255, 0.60);
+    --color-text-normal: #4E5D7C;
+    --color-line-grey: rgba(78, 93, 124, 0.08);
+    --color-line-grey-hover: rgba(255, 255, 255, 0.16);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    margin: 0;
+}
