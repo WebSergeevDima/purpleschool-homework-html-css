@@ -32,7 +32,8 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 120%
+    line-height: 120%;
+    max-width: 460px;
 }
 
 @media (max-width: 1200px) {

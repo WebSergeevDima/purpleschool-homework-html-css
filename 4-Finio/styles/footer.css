@@ -2,14 +2,15 @@
     background-color: var(--color-primary-hard);
     margin-top: 80px;
     color: var(--color-white-extra-light);
+    padding: 90px 0 45px;
 }
 
 .footer__top {
     display: flex;
     justify-content: space-between;
     gap: 90px;
-    padding: 90px 0 45px;
     border-bottom: 1px var(--color-line-grey) solid;
+    padding-bottom: 45px;
 }
 
 .footer__top > div {
@@ -20,8 +21,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 45px 0;
     gap: 24px;
+    padding-top: 45px;
 }
 
 .footer__cards {
